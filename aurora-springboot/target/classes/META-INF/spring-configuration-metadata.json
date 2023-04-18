@@ -1,0 +1,87 @@
+{
+  "groups": [
+    {
+      "name": "qq",
+      "type": "com.aurora.config.properties.QQConfigProperties",
+      "sourceType": "com.aurora.config.properties.QQConfigProperties"
+    },
+    {
+      "name": "upload.minio",
+      "type": "com.aurora.config.properties.MinioProperties",
+      "sourceType": "com.aurora.config.properties.MinioProperties"
+    },
+    {
+      "name": "upload.oss",
+      "type": "com.aurora.config.properties.OssConfigProperties",
+      "sourceType": "com.aurora.config.properties.OssConfigProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "qq.app-id",
+      "type": "java.lang.String",
+      "sourceType": "com.aurora.config.properties.QQConfigProperties"
+    },
+    {
+      "name": "qq.check-token-url",
+      "type": "java.lang.String",
+      "sourceType": "com.aurora.config.properties.QQConfigProperties"
+    },
+    {
+      "name": "qq.user-info-url",
+      "type": "java.lang.String",
+      "sourceType": "com.aurora.config.properties.QQConfigProperties"
+    },
+    {
+      "name": "upload.minio.access-key",
+      "type": "java.lang.String",
+      "sourceType": "com.aurora.config.properties.MinioProperties"
+    },
+    {
+      "name": "upload.minio.bucket-name",
+      "type": "java.lang.String",
+      "sourceType": "com.aurora.config.properties.MinioProperties"
+    },
+    {
+      "name": "upload.minio.endpoint",
+      "type": "java.lang.String",
+      "sourceType": "com.aurora.config.properties.MinioProperties"
+    },
+    {
+      "name": "upload.minio.secret-key",
+      "type": "java.lang.String",
+      "sourceType": "com.aurora.config.properties.MinioProperties"
+    },
+    {
+      "name": "upload.minio.url",
+      "type": "java.lang.String",
+      "sourceType": "com.aurora.config.properties.MinioProperties"
+    },
+    {
+      "name": "upload.oss.access-key-id",
+      "type": "java.lang.String",
+      "sourceType": "com.aurora.config.properties.OssConfigProperties"
+    },
+    {
+      "name": "upload.oss.access-key-secret",
+      "type": "java.lang.String",
+      "sourceType": "com.aurora.config.properties.OssConfigProperties"
+    },
+    {
+      "name": "upload.oss.bucket-name",
+      "type": "java.lang.String",
+      "sourceType": "com.aurora.config.properties.OssConfigProperties"
+    },
+    {
+      "name": "upload.oss.endpoint",
+      "type": "java.lang.String",
+      "sourceType": "com.aurora.config.properties.OssConfigProperties"
+    },
+    {
+      "name": "upload.oss.url",
+      "type": "java.lang.String",
+      "sourceType": "com.aurora.config.properties.OssConfigProperties"
+    }
+  ],
+  "hints": []
+}
